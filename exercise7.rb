@@ -18,3 +18,7 @@ print_list(students)
 
 # Add cohort 4 to hash
 students[:cohort4] = 43
+
+
+# Use keys method to output all cohort names
+puts "#{students.keys}"
