@@ -28,3 +28,9 @@ puts "#{students.keys}"
 students.each do |cohort, count|
   puts "#{(count * 1.05).to_i}"
 end
+
+
+# Delete 2nd cohort and redisplay hash
+students.delete(:cohort2)
+
+print_list(students)
