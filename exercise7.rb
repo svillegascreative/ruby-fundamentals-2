@@ -34,3 +34,15 @@ end
 students.delete(:cohort2)
 
 print_list(students)
+
+
+# Calculate total number of students
+students[:cohort2] = 42  # add it back again!
+
+total = 0
+
+students.each do |cohort, count|
+  total += count
+end
+
+puts "#{total}"
