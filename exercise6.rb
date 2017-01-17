@@ -18,7 +18,7 @@ end
 
 # Create method to output list
 def print_list(array)
-  array.each { |item| puts "* #{item} \n" }
+  array.each { |item| puts "* #{item}" }
 end
 
 
