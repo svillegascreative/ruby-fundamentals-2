@@ -27,7 +27,7 @@ puts "#{grocery_list.count} items on the list"
 
 
 # Are bananas on the list?
-if grocery_list.include?("bananas") == false
+if grocery_list.include?("bananas")
   puts "You need to pick up bananas"
 else
   puts "You don't need to pick up bananas today"
