@@ -22,3 +22,9 @@ students[:cohort4] = 43
 
 # Use keys method to output all cohort names
 puts "#{students.keys}"
+
+
+# Expand cohorts by 5%
+students.each do |cohort, count|
+  puts "#{(count * 1.05).to_i}"
+end
