@@ -8,16 +8,16 @@ end
 
 # Add rice to list
 grocery_list << "rice"
-# output list again
+# Output list again
 grocery_list.each do |item|
   puts "* #{item} \n"
 end
-# create method to output list
+# Create method to output list
 def print_list(array)
   array.each { |item| puts "* #{item} \n" }
 end
 
-# hHw many things?
+# How many things?
 puts "#{grocery_list.count} items on the list"
 
 # Are bananas on the list?
@@ -26,3 +26,6 @@ if grocery_list.include?("bananas") == false
 else
   puts "You don't need to pick up bananas today"
 end
+
+# Display second item in list
+puts "#{grocery_list[1]}"
