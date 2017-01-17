@@ -16,3 +16,6 @@ end
 def print_list(array)
   array.each { |item| puts "* #{item} \n" }
 end
+
+# how many things?
+puts "#{grocery_list.count} items on the list"
