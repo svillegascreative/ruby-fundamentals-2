@@ -14,3 +14,7 @@ def print_list(all_students)
 end
 
 print_list(students)
+
+
+# Add cohort 4 to hash
+students[:cohort4] = 43
