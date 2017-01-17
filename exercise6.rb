@@ -29,3 +29,6 @@ end
 
 # Display second item in list
 puts "#{grocery_list[1]}"
+
+# Rearrange list alphabetically
+print_list(grocery_list.sort)
