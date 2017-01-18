@@ -4,7 +4,7 @@ grocery_list = ["chocolate", "apples", "peanut butter", "cheese"]
 
 # Present each item on a new line following a (*)
 grocery_list.each do |item|
-  puts "* #{item} \n"
+  puts "* #{item}"
 end
 
 
@@ -13,7 +13,7 @@ grocery_list << "rice"
 
 # Output list again
 grocery_list.each do |item|
-  puts "* #{item} \n"
+  puts "* #{item}"
 end
 
 # Create method to output list
@@ -35,7 +35,7 @@ end
 
 
 # Display second item in list
-puts "#{grocery_list[1]}"
+puts grocery_list[1]
 
 
 # Rearrange list alphabetically
